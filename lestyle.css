@@ -1,0 +1,207 @@
+
+#titre {color: #C8C4C4;
+        text-align:center;
+        font-size: 500%;
+        font-family: GOT;
+        font-weight: lighter;
+        text-shadow: 5px 5px 6px #4E0404, 7px 7px 10px black}
+
+#wow {color:#CF562D;
+      text-align:center;
+      font-family: GOT;
+      font-weight: lighter;
+      font-size: 100%}
+
+a:link {color: white;}
+
+a:visited {color: #959DA7;}
+
+a:hover {color: black;
+        background-color: #C8A092 ;
+        border-radius: 10%}
+
+
+
+#as {float:right; height:100%;
+     margin-right:5%;
+     border:2px solid white;
+     width:20%;
+ 	   background-color: rgba(0, 0, 0, 0.5);
+   	 border: 2px solid white;
+     border-radius: 10px;}
+
+#imprinc {text-align: center;
+          border: 3px solid white;
+          border-radius: 5px}
+
+#fx {position: fixed;
+     top:100px;
+     left:96%;
+     right:2%; 
+     display: flex;
+     flex-direction: column;}
+
+.actu {text-align: justify;
+       width: 60%;
+       margin-left: 10%;
+       margin-top: 90px;
+   	   background-color: rgba(0, 0, 0, 0.5);
+   	   border: 2px solid white;
+       border-radius: 10px;}
+
+@font-face {font-family: 'GOT';
+            src: url('Game of Thrones.ttf');}
+
+html {height: 100%}
+
+nav {border: 3px solid white;
+     text-align: center;
+     border-radius: 5px;
+     box-shadow: 0px 8px 4px #7F0606, -0px -8px 4px #C6BBBB;
+     background: linear-gradient(#C6BBBB,#F26E00,#7F0606)}
+
+nav li {display: inline-block;
+        width: 20%;
+        border: 1px solid #CF562D;
+        border-collapse: collapse;
+        background-color: rgba(0, 0, 0, 0.7)}
+
+
+h3.FE {text-align: center;}
+
+h2 {color:#C8A092;
+    font-size:250%;
+    text-align: center;
+    font-family: GOT;
+    font-weight: lighter}
+
+
+h2.BR {text-align:center;
+       font-size:40px;}
+
+h3 {color:#D8E1E0;
+    font-size:200%;}
+
+
+h4 {color:#C8A092;
+	text-align:center;
+    font-size:150%;}
+
+h5 {color:#CF562D;
+    text-align: center;
+    font-size:110%;}
+
+body {background-color:#3B3535;
+	  min-height: 100%;
+	  background-image: url(fond.jpg);
+	  background-attachment: fixed;
+	  background-size: 100%;
+	  position: relative;}
+
+p {color:#D8E1E0;}
+
+p.ep {text-align:center;}
+
+
+div p {font-size: 150%}
+
+
+table{border-collapse:collapse;
+      border: 5px solid grey;
+      margin:auto;
+      background-color: rgba(0, 0, 0, 0.7);}
+
+tr, th {border-collapse:collapse;
+       border: 3px solid grey;
+       color:white;}
+
+figure.images {text-align: center;}
+
+.image {display:flex;
+        justify-content: space-around;
+        margin: auto;
+        align-items: center;
+        width: 100%;
+        height: 100%}
+
+figcaption {color: white;
+            font-size: 150%;}
+
+section.tab {text-align: center;}
+
+footer {
+       display: flex;
+       align-items: flex-end;
+       justify-content: space-around;
+       margin-bottom: 2px;
+       margin-top: 30%;
+       width:100%;
+       background-color: rgba(0, 0, 0, 0.5);
+   	   border: 2px solid white;
+       border-radius: 10px}
+
+footer p {color: white;
+          text-align: center;}
+
+video {display: inline-block;
+       width: 70%;
+       height: 70%;}
+
+#vid {text-align: right;
+      font-size:20px}
+
+
+
+#video {display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;}
+
+form {color: #D8E1E0;
+	  text-align: center;}
+
+.smenu {display: none;}
+
+#survol:hover .smenu {display: block;
+                      display: flex;
+                      justify-content: space-between;
+                      width: 60%;}
+#logo {
+      margin-top: 2px
+ }
+
+@media screen and (max-width: 800px)
+{
+nav li {
+        display: inline-block;
+        width: 80%;
+        border: 1px solid #CF562D;
+        border-collapse: collapse;
+        background-color: rgba(0, 0, 0, 0.7)
+}
+.actu {
+       text-align: justify;
+       margin-left: 0px;
+       width: 100%;
+       margin-top: 50px;
+       background-color: rgba(0, 0, 0, 0.5);
+       border: 2px solid white;
+       border-radius: 10px;
+}
+
+#as{
+    height:100%;
+    border:2px solid white;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#resp{
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;}
+
+}
+}
+ 

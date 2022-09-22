@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <link href="lestyle.css" type="text/css"
+              rel="stylesheet" media="screen"/>
+        <title> GoTidien </title>
+
+       </head>
+
+       <body>
+
+    <header>
+
+      <h1 id="titre"> GoTidien </h1>
+      <p id="wow"> L'actu 100% Game of Thrones, quotidiennement! </p>
+      <div id="imprinc">
+          <img src="GoT.jpg"
+               alt=""
+               height="100%"
+               width="100%"/>
+      </div>
+
+       </div>
+
+                <div id="fx">
+                    <a href="https://twitter.com/?lang=fr"> <img  alt="" src="twitter.png" height="100%" width="100%"/></a>
+                    <a href="https://fr-fr.facebook.com/"> <img  alt="" src="facebook.png" height="100%" width="100%"/> </a>
+                </div><br>
+
+    </header>
+
+      
+        <nav>
+
+                  <li><a href="GoTidien.html"> Accueil </a></li>
+                  <li><a href="BIOGRAPHIES.html"> Biographies </a></li>
+                    <li id="survol"><a href=""> Medias </a>
+                      <ul class="smenu">
+                        <li2><a href="photos.html"> Photos </li2>
+                        <li2><a href="videos.html"> Video </a></li2>
+                      </ul>
+                    </li>
+                  <li><a href="contact.html"> Contacter </a></li>
+
+    </nav>
+
+    		<h2 class="BR"> Prendre contact </h2>
+
+    			<p> Cette page est dédiée à la prise de contact avec le développeur. Si vous avez trouvé des erreurs ou si vous voulez présenter des idées:</p>
+    			<br><br><br>
+
+    				<form action="contact.php" method="post">
+    					<label for="nom"> Nom </label>
+    					<input size ="10" type="text" name="nom" id="inom" required="required" />
+    					<br><br>
+    					<label for="mail"> Email </label>
+    					<input size="20" type="email" name="mail" id="imail" required="required" />
+    					<br><br>
+    					<label for="tel"> Tel </label>
+    					<input size="10" type="tel" name="tel" id="itel"/>
+    					<br><br>
+    					<select name="choix" size="1"> Demande:
+    						<option value="bug"> Bug </option>
+    						<option value="amelio"> Amélioration </option>
+    						<option value="autre"> Autre </option>
+    					</select>
+    					<br><br>>
+    					<label for="reponse"> Première visite? </label>
+    					<input size="5" type="radio" name="reponse" value="oui"/> OUI
+    					<input size="5" type="radio" name="reponse" value="non"/> NON
+    					<br><br>
+    					<label name="message"> Message </label>
+    					<input size="100" type="textearea" name="message" id="imessage" required="required" />
+    					<br><br>
+    					<input type= "submit" value="valider" name="valider"/>
+    				</form>
+
+             <footer>
+               <p> Hugo Coiffard - 1A - Groupe 5 <br> <a href="sources.html"> Sources </a></p>    
+            </footer>
+    </body>
+</html>
+
+
+
+

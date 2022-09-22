@@ -1,0 +1,23 @@
+#nav {display: none;}
+header {display: none;}
+#retour {display:none;}
+
+table{border-collapse:collapse;
+      border: 5px solid black;
+      margin:auto;}
+tr, th {border-collapse:collapse;
+       border: 3px solid black;
+       color:white;}
+
+h2 {color:#C8A092;
+     font-size:250%;}
+
+h2.BR {text-align:center;
+        font-size:40px;}
+
+h3 {color:#D8E1E0;
+    font-size:200%;}
+h3.FE {text-align:center;
+        font-size:30px;}
+
+ section.tab {text-align: center;}
